@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>MiFirma.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntity\CapaDatos.csproj" />
+    <ProjectReference Include="..\CapaTools\CapaTools.csproj" />
+    <ProjectReference Include="..\Data\CapaEntidad.csproj" />
+  </ItemGroup>
+
+</Project>
